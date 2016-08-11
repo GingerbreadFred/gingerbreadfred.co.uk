@@ -1,4 +1,4 @@
-baseurl = "http://www.gingerbreadfred.co.uk"
+baseurl = "http://www.gingerbreadfred.co.uk/"
 languageCode = "en-us"
 title = "Variadic Vault"
 theme = "blackburn"
