@@ -14,7 +14,13 @@
       <a class="pure-menu-link" href="https://twitter.com/{{ . }}" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
     </li>
     {{ end }}
-
+	
+	{{ with .Site.Social.email }}
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="mailto:{ . }}" target="_blank"><i class="fa fa-envelope-o fa-fw"></i>Email</a>
+    </li>
+    {{ end }}
+	
     {{ with .Site.Social.gnusocial }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="{{ . }}" target="_blank"><i class="fa fa-comment fa-fw"></i>GNU social</a>
