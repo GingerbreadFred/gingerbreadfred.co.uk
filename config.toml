@@ -1,4 +1,4 @@
-baseurl = "http://gingerbreadfred.github.io/"
+baseurl = "http://gingerbreadfred.azurewebsites.net"
 languageCode = "en-us"
 title = "GingerbreadFred"
 theme = "blackburn"
