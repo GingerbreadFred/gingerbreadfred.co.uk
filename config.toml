@@ -1,3 +1,5 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://gingerbreadfred.github.io"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "GingerbreadFred"
+theme = "nofancy"
+pygmentsStyle = "native"
