@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on GingerbreadFred</title>
-    <link>http://gingerbreadfred.azurewebsites.net/post/</link>
-    <description>Recent content in Posts on GingerbreadFred</description>
+    <title>Posts on Variadic Vault</title>
+    <link>http://www.gingerbreadfred.co.uk/post/</link>
+    <description>Recent content in Posts on Variadic Vault</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Thu, 11 Aug 2016 19:00:00 +0100</lastBuildDate>
-    <atom:link href="http://gingerbreadfred.azurewebsites.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.gingerbreadfred.co.uk/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>First Post</title>
-      <link>http://gingerbreadfred.azurewebsites.net/post/first-post/</link>
+      <link>http://www.gingerbreadfred.co.uk/post/first-post/</link>
       <pubDate>Thu, 11 Aug 2016 19:00:00 +0100</pubDate>
       
-      <guid>http://gingerbreadfred.azurewebsites.net/post/first-post/</guid>
+      <guid>http://www.gingerbreadfred.co.uk/post/first-post/</guid>
       <description>&lt;p&gt;This is a temporary first post&lt;/p&gt;
 </description>
     </item>

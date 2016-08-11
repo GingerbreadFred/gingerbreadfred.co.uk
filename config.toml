@@ -1,6 +1,6 @@
-baseurl = "http://gingerbreadfred.azurewebsites.net"
+baseurl = "http://www.gingerbreadfred.co.uk"
 languageCode = "en-us"
-title = "GingerbreadFred"
+title = "Variadic Vault"
 theme = "blackburn"
 pygmentsStyle = "native"
 
