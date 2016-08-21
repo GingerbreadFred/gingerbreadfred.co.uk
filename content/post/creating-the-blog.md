@@ -36,9 +36,9 @@ Obviously this route doesn't provide any hosting so I had to take my own route f
 
 Hugo's local preview workflow is really good. I couldn't get their in memory webserver to work which seems to support live updating as the markdown file gets edited however they do have a write to disk preview which works perfectly well for me and fits my requirements.
 
-The only drawback with running the static generator is that I lose the ability to host dynamic content. My requirements didn't call for much dynamic content but I thought having a comment system would be nice. Fortunately most hugo themes support some level of [Disqus](http://www.disqus.com Disqus) integration and that's what you can (hopefully) see running at the bottom of this post. 
+The only drawback with running the static generator is that I lose the ability to host dynamic content. My requirements didn't call for much dynamic content but I thought having a comment system would be nice. Fortunately most Hugo themes support some level of [Disqus](http://www.disqus.com Disqus) integration and that's what you can (hopefully) see running at the bottom of this post. 
 
-I appreciate I haven't done a full and thorough investigation of the domain however I have found something that works quite well for me. Future posts will be on topic but I did have a bit of fun diving into something new, however shallowly. My biggest takeaway was actually how well the Windows Subsystem for Linux works. I had absolutely no issues with it and both git and hugo seem to be working perfectly running under that system. 
+I appreciate I haven't done a full and thorough investigation of the domain however I have found something that works quite well for me. Future posts will be on topic but I did have a bit of fun diving into something new, however shallowly. My biggest takeaway was actually how well the Windows Subsystem for Linux works. I had absolutely no issues with it and both git and Hugo seem to be working perfectly running under that system. 
 
 
 
