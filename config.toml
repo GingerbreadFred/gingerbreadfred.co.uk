@@ -51,4 +51,8 @@ paginate = 10
   # SNS microblogging
   twitter = "@GingerbreadFred"
   email = "richiwatson@gmail.com"
+  
+[blackfriday]
+   plainIDAnchors = true
+   hrefTargetBlank = true
 
