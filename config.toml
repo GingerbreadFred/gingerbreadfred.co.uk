@@ -52,7 +52,4 @@ paginate = 10
   twitter = "@GingerbreadFred"
   email = "richiwatson@gmail.com"
   
-[blackfriday]
-   plainIDAnchors = true
-   hrefTargetBlank = true
 

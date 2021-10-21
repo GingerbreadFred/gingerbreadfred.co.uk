@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.88.1" />
+
+  <title>Creating The Blog &middot; Variadic Vault</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="http://localhost:1313/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="http://localhost:1313/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="http://localhost:1313/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="http://localhost:1313/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="http://localhost:1313/">GingerbreadFred</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://localhost:1313/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://localhost:1313/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://localhost:1313/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/@GingerbreadFred" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2016. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Creating The Blog</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>21 Aug 2016, 19:10</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://localhost:1313/tags/web">Web</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <h1 id="introduction">Introduction:</h1>
+<p>Like all programmers in the world I decided that my opinions weren&rsquo;t reaching the right amount of people at work so I decided to create a blog to share my wisdom with the whole world.</p>
+<p>This isn&rsquo;t my first foray into making a blog. I have had many attempts at trying to (probably like all programmers) create my own content management system (CMS) and frontend. They all worked to some varying degree but again like all programmers I realised that what seemed like a trivial task at first was actually filled with all sorts of subtle and nuanced problems. Given that my main interests lie in gaming I figured something off the shelf would probably suit me better.</p>
+<h1 id="the-options">The Options:</h1>
+<p>After a quick Google around it seemed like I had two options. Go with an off the shelf CMS system like <a href="http://www.wordpress.org" title="Wordpress">Wordpress</a> or take a look at static site generators. For those that don&rsquo;t know static site generators are systems that will take a group of documents (usually markdown formatted) and transform them into a selection of html files that will form your website. From there you can upload the html to your web host and there you have it.</p>
+<p>I have had a little bit of experience with <a href="http://www.wordpress.org" title="Wordpress">Wordpress</a> before when creating the website to inform people about my wedding. I found it quite inflexible and very tricky to get it looking the way that I wanted it to look. There is also the issue of exploits. Wordpress is a huge piece of software and inevitably with that scale comes security issues. Obviously using a static site generator would avoid these issues as your surface area for attack is nil, your content is generated offline and everything you upload is, as the name suggests, static.</p>
+<p>Given that I had never actually worked with static site generators and fancied learning something new, and with the desire to avoid the security issues of a full CMS system which to be quite frank I didn&rsquo;t need the full feature set of I decided to take a look at static generators.</p>
+<h1 id="git-hub-pages">Git Hub Pages:</h1>
+<p>My first port of call was to take a look at <a href="https://pages.github.com/" title="GitHub Pages">GitHub Pages</a>. It seemed to provide a nice combined hosting and source control solution. They offer the ability to upload your website via git and then they automatically run the static site generator and hey presto your website is up and running. Each git account gets one website (<a href="http://_username_.github.io">http://_username_.github.io</a>) and each project gets a page as well. It is backed by [Jekyll](<a href="https://jekyllrb.com/">https://jekyllrb.com/</a> Jekyll) which seems like one of the most popular static generators around.</p>
+<p>At first glance it seemed pretty slick. I created a simple markdown document and git repo. Threw it up onto github, the generator ran on their servers and hey presto I had a website up and hosted. The main reason why I didn&rsquo;t end up going down this route however was previewing. A blog post may take a while to create and during that period it may be nice to keep it in source control, not have it go live, but also see what it looks like. I couldn&rsquo;t see an elegant way to do this with GitHub pages and even if they had a system for submitting drafts you would not be able to do an offline preview. Actually being able to see your content without having to touch the internet seems desirable (although I am not sure if I will use it).</p>
+<p>You could install [Jekyll](<a href="https://jekyllrb.com/">https://jekyllrb.com/</a> Jekyll) locally however that seems like quite an involved process. Their website lists their requirements as Ruby, Ruby Gems and NodeJS. That seemed a touch heavy weight for my requirements, which led me to the final solution for the site.</p>
+<h1 id="hugo-azure-and-windows-subsystem-for-linux">Hugo, Azure and Windows Subsystem for Linux:</h1>
+<p>The current version of the site (at the time of writing) has been generated by <a href="https://gohugo.io/" title="Hugo">Hugo</a>. Hugo is a simple, single executable that will generate a website.  I have ended up installing and running it through the Windows Subsystem for Linux which I was experimenting with already as my local git command line client. The install was smooth (a simple .deb package install and some config to put it into the path) and setup was easy and building the website is one console command.</p>
+<p>Obviously this route doesn&rsquo;t provide any hosting so I had to take my own route for that. I had played around with azure before, their hosting offers some neat automatic uploading from github and given that I already had some hosting there and a small budget for personal projects through work.</p>
+<p>Hugo&rsquo;s local preview workflow is really good. I couldn&rsquo;t get their in memory webserver to work which seems to support live updating as the markdown file gets edited however they do have a write to disk preview which works perfectly well for me and fits my requirements.</p>
+<p>The only drawback with running the static generator is that I lose the ability to host dynamic content. My requirements didn&rsquo;t call for much dynamic content but I thought having a comment system would be nice. Fortunately most Hugo themes support some level of [Disqus](<a href="http://www.disqus.com">http://www.disqus.com</a> Disqus) integration and that&rsquo;s what you can (hopefully) see running at the bottom of this post.</p>
+<p>I appreciate I haven&rsquo;t done a full and thorough investigation of the domain however I have found something that works quite well for me. Future posts will be on topic but I did have a bit of fun diving into something new, however shallowly. My biggest takeaway was actually how well the Windows Subsystem for Linux works. I had absolutely no issues with it and both git and Hugo seem to be working perfectly running under that system.</p>
+
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fpost%2fcreating-the-blog%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=http%3a%2f%2flocalhost%3a1313%2fpost%2fcreating-the-blog%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=http%3a%2f%2flocalhost%3a1313%2fpost%2fcreating-the-blog%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=http%3a%2f%2flocalhost%3a1313%2fpost%2fcreating-the-blog%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fpost%2fcreating-the-blog%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fpost%2fcreating-the-blog%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="http://localhost:1313/post/first-post/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="http://localhost:1313/post/first-post/">First Post</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'gingerbreadfred';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="http://localhost:1313/js/ui.js"></script>
+<script src="http://localhost:1313/js/menus.js"></script>
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=Your%20Google%20Analytics%20tracking%20ID"></script>
+<script>
+  
+  if (window.location.hostname != "localhost") {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'Your Google Analytics tracking ID');
+  }
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
