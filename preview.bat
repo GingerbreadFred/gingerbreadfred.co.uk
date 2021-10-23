@@ -1,1 +1,1 @@
-..\Tools\Hugo\hugo server --renderToDisk -D
+..\Tools\Hugo\hugo server -D

@@ -15,7 +15,7 @@ paginate = 10
 
 [params]
   # Shown in the home page
-  subtitle = "A Random Thought Stream"
+  subtitle = "The Personal Website For Richard Watson"
   brand = "GingerbreadFred"
   googleAnalytics = "Your Google Analytics tracking ID"
   disqus = "gingerbreadfred"
@@ -51,5 +51,8 @@ paginate = 10
   # SNS microblogging
   twitter = "@GingerbreadFred"
   email = "richiwatson@gmail.com"
+
+  [markup.goldmark.renderer] 
+  unsafe= true 
   
 
