@@ -17,7 +17,6 @@ paginate = 10
   # Shown in the home page
   subtitle = "The Personal Website For Richard Watson"
   brand = "GingerbreadFred"
-  googleAnalytics = "Your Google Analytics tracking ID"
   disqus = "gingerbreadfred"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
@@ -49,8 +48,10 @@ paginate = 10
   # by entering your username or ID.
 
   # SNS microblogging
+  linkedIn = "gingerbreadfred"
   twitter = "@GingerbreadFred"
   email = "richiwatson@gmail.com"
+
 
   [markup.goldmark.renderer] 
   unsafe= true 
