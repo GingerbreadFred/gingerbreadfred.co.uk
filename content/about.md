@@ -5,7 +5,23 @@ sidemenu = "true"
 description = "About me and this site"
 +++
 
-<div style="text-align: center;"><img src="/images/about/me.jpg" width=200 style="border-radius: 50%"/></div>
+<style>
+    .about-image
+    {
+        border-radius: 5%; 
+        max-width: 90%; 
+        width: 600;
+    }
+
+    .profile-image
+    {
+        border-radius: 50%; 
+        max-width: 90%; 
+        width: 200; 
+    }
+</style>
+
+<div style="text-align: center;"><img src="/images/about/me.jpg" width=200 class="profile-image"/></div>
 
 I'm Richard Watson, Gameplay Programmer and currently Lead Sandbox Engineer at 343 Industries.
 
@@ -13,7 +29,7 @@ I'm Richard Watson, Gameplay Programmer and currently Lead Sandbox Engineer at 3
 
 ## Halo Infinite - Lead Sandbox Engineer
 
-<div style="text-align: center;"><img src="/images/about/Halo.jpg" width=600 style="border-radius: 5%"/></div>
+<div style="text-align: center;"><img src="/images/about/Halo.jpg" width=600 class="about-image"/></div>
 
 Halo Infinite is the latest entry in the Halo franchise. As lead of the Engineering Team on Sandbox my team and I are responsible for the following 
 
@@ -24,7 +40,7 @@ Halo Infinite is the latest entry in the Halo franchise. As lead of the Engineer
 
 ## 3D Scanning - Senior Software Engineer
 
-<div style="text-align: center;"><img src="/images/about/scan.png" width=600 style="border-radius: 5%"/></div>
+<div style="text-align: center;"><img src="/images/about/scan.png" width=600 class="about-image"/></div>
 
 Worked on multiple aspects of a 3d object scanning application capable of generating 3d objects from a monocular or stereo camera feed. Aspects included
 
@@ -35,7 +51,7 @@ Worked on multiple aspects of a 3d object scanning application capable of genera
 
 ## Sea of Thieves - Senior Gameplay Engineer
 
-<div style="text-align: center;"><img src="/images/about/SoT.jpg" width=600 style="border-radius: 5%"/></div>
+<div style="text-align: center;"><img src="/images/about/SoT.jpg" class="about-image"/></div>
 
 Sea of Thieves is an shared world adventure game in which you and a crew of other players play as pirates in an open ended sandbox. As one of the Senior Gameplay Engineers on the project from the beginning I was responsible for
 
@@ -46,7 +62,7 @@ Sea of Thieves is an shared world adventure game in which you and a crew of othe
 
 ## Kinect Sports Rivals - Senior Gameplay Engineer
 
-<div style="text-align: center;"><img src="/images/about/KSR.jpg" width=600 style="border-radius: 5%"/></div>
+<div style="text-align: center;"><img src="/images/about/KSR.jpg" class="about-image"/></div>
 
 Kinect Sports Rivals is the third Kinect Sports game and the first to utilize the Xbox One Kinect Sensor. As Senior Gameplay Engineer I was responsible for
 
@@ -55,7 +71,7 @@ Kinect Sports Rivals is the third Kinect Sports game and the first to utilize th
 
 ## Kinect Sports Season 2 - Senior Gameplay Engineer
 
-<div style="text-align: center;"><img src="/images/about/KS2.jpg" width=600 style="border-radius: 5%"/></div>
+<div style="text-align: center;"><img src="/images/about/KS2.jpg" class="about-image"/></div>
 
 Kinect Sports Season 2 is the second Kinect Sports game. On this title I was part of the Tennis team, my responsibilities included
 
@@ -64,7 +80,7 @@ Kinect Sports Season 2 is the second Kinect Sports game. On this title I was par
 
 ## Kinect Sports - Gameplay Engineer
 
-<div style="text-align: center;"><img src="/images/about/KS1.jpg" width=600 style="border-radius: 5%"/></div>
+<div style="text-align: center;"><img src="/images/about/KS1.jpg"  class="about-image"/></div>
 
 Kinect Sports was one of the first Kinect titles. As a gameplay engineer on this project I was responsible for 
 
@@ -72,7 +88,7 @@ Kinect Sports was one of the first Kinect titles. As a gameplay engineer on this
 
 ## Banjo Kazooie Nuts and Bolts - Gameplay Engineer
 
-<div style="text-align: center;"><img src="/images/about/Banjo.jpg" width=600 style="border-radius: 5%"/></div>
+<div style="text-align: center;"><img src="/images/about/Banjo.jpg" class="about-image"/></div>
 
 Banjo Kazooie Nuts and Bolts is the third Banjo Kazooie game and first on the Xbox 360. As Gameplay Engineer I was responsible for 
 
