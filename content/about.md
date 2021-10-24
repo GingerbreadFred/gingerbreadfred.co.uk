@@ -10,18 +10,18 @@ description = "About me and this site"
     {
         border-radius: 5%; 
         max-width: 90%; 
-        width: 600;
+        width: 600px;
     }
 
     .profile-image
     {
         border-radius: 50%; 
         max-width: 90%; 
-        width: 200; 
+        width: 200px; 
     }
 </style>
 
-<div style="text-align: center;"><img src="/images/about/me.jpg" width=200 class="profile-image"/></div>
+<div style="text-align: center;"><img src="/images/about/me.jpg" class="profile-image"/></div>
 
 I'm Richard Watson, Gameplay Programmer and currently Lead Sandbox Engineer at 343 Industries.
 
@@ -29,7 +29,7 @@ I'm Richard Watson, Gameplay Programmer and currently Lead Sandbox Engineer at 3
 
 ## Halo Infinite - Lead Sandbox Engineer
 
-<div style="text-align: center;"><img src="/images/about/Halo.jpg" width=600 class="about-image"/></div>
+<div style="text-align: center;"><img src="/images/about/Halo.jpg" class="about-image"/></div>
 
 Halo Infinite is the latest entry in the Halo franchise. As lead of the Engineering Team on Sandbox my team and I are responsible for the following 
 
@@ -40,7 +40,7 @@ Halo Infinite is the latest entry in the Halo franchise. As lead of the Engineer
 
 ## 3D Scanning - Senior Software Engineer
 
-<div style="text-align: center;"><img src="/images/about/scan.png" width=600 class="about-image"/></div>
+<div style="text-align: center;"><img src="/images/about/scan.png" class="about-image"/></div>
 
 Worked on multiple aspects of a 3d object scanning application capable of generating 3d objects from a monocular or stereo camera feed. Aspects included
 
