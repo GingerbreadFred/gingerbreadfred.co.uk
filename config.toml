@@ -5,7 +5,7 @@ theme = "blackburn"
 pygmentsStyle = "native"
 
 # Shown in the side menu
-copyright = "&copy; 2016. All rights reserved."
+copyright = "&copy; 2022. All rights reserved."
 canonifyurls = true
 paginate = 10
 
