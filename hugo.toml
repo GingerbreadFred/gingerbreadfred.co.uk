@@ -1,0 +1,41 @@
+baseURL = 'https://www.gingerbreadfred.co.uk/'
+languageCode = 'en-gb'
+title = 'Gingerbread Racing'
+theme = 'hugo-theme-m10c'
+
+[menu]
+	[[menu.main]]
+		identifier = "home"
+		name = "Home"
+		url = "/"
+		weight = 1 
+	[[menu.main]]
+		identifier = "about"
+		name = "About"
+		url = "/about/"
+		weight = 2 
+	[[menu.main]]
+		identifier = "tags"
+		name = "Tags"
+		url = "/tags/"
+		weight = 3 
+
+[markup.goldmark.renderer]
+	unsafe= true
+
+[params]
+	author = "Richard Watson"
+	description = "Game Developer and soon to be Caterham Academy Racer"
+	menu_item_separator = " - "
+	[[params.social]]
+		icon = "brand-github"
+		name = "Github"
+		url = "https://github.com/gingerbreadfred"
+	[[params.social]]
+		icon = "brand-linkedin"
+		name = "LinkedIn"
+		url = "https://linkedin.com/in/gingerbreadfred"
+	[[params.social]]
+		icon = "brand-twitch"
+		name = "Twitch"
+		url = "https://twitch.tv/GingerbreadRacing"
