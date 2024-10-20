@@ -1,1 +1,0 @@
-..\Tools\Hugo\hugo server -D
