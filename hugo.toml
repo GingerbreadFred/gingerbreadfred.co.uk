@@ -39,3 +39,7 @@ theme = 'hugo-theme-m10c'
 		icon = "brand-twitch"
 		name = "Twitch"
 		url = "https://twitch.tv/GingerbreadRacing"
+	[[params.social]]
+		icon = "brand-youtube"
+		name = "YouTube"
+		url = "https://youtube.com/@GingerbreadRacing"
