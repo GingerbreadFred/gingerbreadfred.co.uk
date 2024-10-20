@@ -1,0 +1,14 @@
+baseURL = 'https://www.gingerbreadfred.co.uk/'
+languageCode = 'en-gb'
+title = 'Variadic Vault'
+theme = 'hugo-theme-m10c'
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
