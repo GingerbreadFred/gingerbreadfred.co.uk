@@ -1,10 +1,8 @@
 +++
 date = '2024-10-20T15:03:55+01:00'
-title = 'Caterham Prep'
+title = 'Day -2: Delivery Prep'
 tags = ['caterham', 'build diary']
 +++
-
-## Day -2: Caterham Prep 
 
 Delivery day is coming on Tuesday so I have been getting the final bits of garage prep done before the big day. 
 
