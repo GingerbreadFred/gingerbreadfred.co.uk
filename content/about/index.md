@@ -20,13 +20,13 @@ title = 'Richard Watson'
     }
 </style>
 
-I'm Richard Watson, Sim Racer, Game Developer and currently Technical Director at People Can Fly. This website has been setup to track my preperation and progress through the Caterham Academy 2025 series as well as act as somewhere for me to dump thoughts about game development. 
+I'm Richard Watson, Sim Racer, Game Developer and soon to be participant in the 2025 Caterham Academy. This website has been setup to track my preperation and progress through the Caterham Academy 2025 series as well as act as somewhere for me to dump thoughts about game development. 
 
 # Portfolio
 
 ## Halo Infinite - Lead Sandbox Engineer
 
-<div style="text-align: center;"><img src="/images/about/Halo.jpg" class="about-image"/></div>
+<div style="text-align: center;"><img src="./images/Halo.jpg" class="about-image"/></div>
 
 Halo Infinite is the latest entry in the Halo franchise. As lead of the Engineering Team on Sandbox my team and I are responsible for the following 
 
@@ -37,7 +37,7 @@ Halo Infinite is the latest entry in the Halo franchise. As lead of the Engineer
 
 ## 3D Scanning - Senior Software Engineer
 
-<div style="text-align: center;"><img src="/images/about/scan.png" class="about-image"/></div>
+<div style="text-align: center;"><img src="./images/scan.png" class="about-image"/></div>
 
 Worked on multiple aspects of a 3d object scanning application capable of generating 3d objects from a monocular or stereo camera feed. Aspects included
 
@@ -48,7 +48,7 @@ Worked on multiple aspects of a 3d object scanning application capable of genera
 
 ## Sea of Thieves - Senior Gameplay Engineer
 
-<div style="text-align: center;"><img src="/images/about/SoT.jpg" class="about-image"/></div>
+<div style="text-align: center;"><img src="./images/SoT.jpg" class="about-image"/></div>
 
 Sea of Thieves is an shared world adventure game in which you and a crew of other players play as pirates in an open ended sandbox. As one of the Senior Gameplay Engineers on the project from the beginning I was responsible for
 
@@ -59,7 +59,7 @@ Sea of Thieves is an shared world adventure game in which you and a crew of othe
 
 ## Kinect Sports Rivals - Senior Gameplay Engineer
 
-<div style="text-align: center;"><img src="/images/about/KSR.jpg" class="about-image"/></div>
+<div style="text-align: center;"><img src="./images/KSR.jpg" class="about-image"/></div>
 
 Kinect Sports Rivals is the third Kinect Sports game and the first to utilize the Xbox One Kinect Sensor. As Senior Gameplay Engineer I was responsible for
 
@@ -68,7 +68,7 @@ Kinect Sports Rivals is the third Kinect Sports game and the first to utilize th
 
 ## Kinect Sports Season 2 - Senior Gameplay Engineer
 
-<div style="text-align: center;"><img src="/images/about/KS2.jpg" class="about-image"/></div>
+<div style="text-align: center;"><img src="./images/KS2.jpg" class="about-image"/></div>
 
 Kinect Sports Season 2 is the second Kinect Sports game. On this title I was part of the Tennis team, my responsibilities included
 
@@ -77,7 +77,7 @@ Kinect Sports Season 2 is the second Kinect Sports game. On this title I was par
 
 ## Kinect Sports - Gameplay Engineer
 
-<div style="text-align: center;"><img src="/images/about/KS1.jpg"  class="about-image"/></div>
+<div style="text-align: center;"><img src="./images/KS1.jpg"  class="about-image"/></div>
 
 Kinect Sports was one of the first Kinect titles. As a gameplay engineer on this project I was responsible for 
 
@@ -85,7 +85,7 @@ Kinect Sports was one of the first Kinect titles. As a gameplay engineer on this
 
 ## Banjo Kazooie Nuts and Bolts - Gameplay Engineer
 
-<div style="text-align: center;"><img src="/images/about/Banjo.jpg" class="about-image"/></div>
+<div style="text-align: center;"><img src="./images/Banjo.jpg" class="about-image"/></div>
 
 Banjo Kazooie Nuts and Bolts is the third Banjo Kazooie game and first on the Xbox 360. As Gameplay Engineer I was responsible for 
 
