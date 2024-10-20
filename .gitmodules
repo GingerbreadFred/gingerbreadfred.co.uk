@@ -1,7 +1,6 @@
-
 [submodule "public"]
 	path = public
-	url = https://gingerbreadfred.github.io/gingerbreadfred.co.uk-pages/
+	url = https://github.com/gingerbreadfred/gingerbreadfred.co.uk-pages/
 [submodule "themes/hugo-theme-m10c"]
 	path = themes/hugo-theme-m10c
 	url = https://github.com/vaga/hugo-theme-m10c.git
