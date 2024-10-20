@@ -1,7 +1,4 @@
 
-[submodule "themes/blackburn"]
-	path = themes/blackburn
-	url = https://github.com/GingerbreadFred/blackburn.git
 [submodule "public"]
 	path = public
 	url = https://gingerbreadfred.github.io/gingerbreadfred.co.uk-pages/
