@@ -1,10 +1,8 @@
 +++
 date = '2024-10-20T15:19:53+01:00'
 draft = false
-title = 'About'
+title = 'Richard Watson'
 +++
-
-## Richard Watson
 
 <style>
     .about-image
