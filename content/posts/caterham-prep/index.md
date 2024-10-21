@@ -6,7 +6,7 @@ tags = ['caterham', 'build diary']
 
 Delivery day is coming on Tuesday so I have been getting the final bits of garage prep done before the big day. 
 
-I have been following a few blogs for the list of tools and consumables that I will need for the build. Given how little mechanaical work I have done in the past (change tyres / brake pads) I'm a little nervous that I both don't have the right tools, don't have enough space, and don't have the skills to build this car but that's all part of the adventure. 
+I have been following a few blogs for the list of tools and consumables that I will need for the build. Given how little mechanaical work I have done in the past (change tyres / brake pads) I'm a little nervous that I don't have the right tools, don't have enough space, and don't have the skills to build this car but that's all part of the adventure. 
 
 ![Tools](images/garage2.jpg)
 
