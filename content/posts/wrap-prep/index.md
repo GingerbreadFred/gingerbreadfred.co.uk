@@ -16,6 +16,6 @@ As the car is getting wrapped I haven't started as the manual suggests on the fr
 
 ![SteeringRack](images/steeringrack.jpg) 
 
-![AirBox](images/AirBox.jpg) 
+![AirBox](images/airbox.jpg) 
 
 Next job is building up the headlight assembly. I've heard this is one of the more awkward jobs so I'm looking forward to getting it done! 
